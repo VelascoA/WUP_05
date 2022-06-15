@@ -47,6 +47,7 @@ barchartGC(~infected + treatment,data=females)
 barchartGC(~infected + treatment,data=females, type="percent")
 
 ```
+
 Based on the graphs results females who took the placebo seem to have a smaller chance to not get AIDS, but those who had taken the drug still contracted AIDS rather than those who took the placebo drug.
 
 ### Numerical Descriptive Results
@@ -71,8 +72,12 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-The tests shows 218 people who took the drug still contracted AIDS where only 147 who took the placebo got AIDS. There were more who took the drug that contracted AIDS than those who took the placebo. The chances of getting these results are 7 out of 10,000 , a number so small leads to the belief that it was not by chance those who took the drug got AIDS more than those who took the placebo. The drug seems to be working in favor of contracting AIDS rather than helping the prevention of AIDS, allowing us to reject the null hypothesis. 
+The inferential results shows 218 people who took the drug still contracted AIDS where only 147 who took the placebo got AIDS. There were more who took the drug that contracted AIDS than those who took the placebo. The chances of getting these results are 7 out of 10,000 if there was no diffrence , a number so small leads to the belief that it was not by chance those who took the drug got AIDS more than those who took the placebo. The drug seems to be working in favor of contracting AIDS rather than helping the prevention of AIDS, allowing us to reject the null hypothesis. 
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+
+Based on the graphs results females who took the placebo seem to have a smaller chance to not get AIDS.The numerical results show slightly over 50% of females that took the AIDS drug still got AIDS, where 41% of females who took the placebo.The inferential results shows 218 females who took the drug still contracted AIDS where only 147 who took the placebo got AIDS. There were more females who took the drug that contracted AIDS than those who took the placebo. The Fisher exact test shows that those who take the drug are 1.240% between 1.92% more likely to contract AIDS. Having these results leads us to rejecting the null hypothesis because the drug in working in favor of contracting AIDS rather that preventing AIDS. The drug to help prevent AIDS and contracting AIDS shared a relationship by allowing those who took it to have a higher chance of contracting AIDS than those who took the placebo. 
+
